@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.testapp.cryptocompare.MainActivity">
+    <item
+        android:id="@+id/action_create_card"
+        android:orderInCategory="100"
+        android:title="@string/create_currency_card"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="200"
+        android:title="@string/refresh_rates"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_cards"
+        android:orderInCategory="300"
+        android:title="@string/clear_cards"
+        app:showAsAction="never" />
+
+</menu>
